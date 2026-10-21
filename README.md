@@ -29,7 +29,7 @@ Coming next, in public as each one is finished:
 - **Backend:** Java, Spring Boot, Spring MVC, JPA and Hibernate, REST API design, PostgreSQL, SQL and PL/SQL
 - **TypeScript:** Node.js, Express, Next.js, Zod
 - **LLM engineering:** structured output, evals, guardrails, cost and latency tracking, MCP
-- **Delivery:** Docker, Kubernetes (CKAD), CI/CD with GitHub Actions and Jenkins, TDD and BDD
-- **Ways of working:** Scrum (PSM II), SAFe Release Train Engineer, remote teams across Europe and the Americas
+- **Delivery:** Docker, Kubernetes, CI/CD with GitHub Actions and Jenkins, TDD and BDD
+- **Ways of working:** Scrum (PSM II), SAFe (as a Release Train Engineer), remote teams across Europe and the Americas
 
 English and Spanish.
