@@ -16,13 +16,10 @@ I use AI coding agents (Claude Code, GitHub Copilot) as implementers. I own the 
 
 | Repository | What it shows |
 | --- | --- |
+| [payment-disputes-spring-boot](https://github.com/alejandrolunatech/payment-disputes-spring-boot) | A Spring Boot 4 service with a hexagonal core: an LLM reads the customer's complaint and proposes a reason, and tested code decides. Idempotency keys, optimistic locking, PII masking, a circuit breaker with a rules fallback, and an eval harness |
+| [invoice-intake-api](https://github.com/alejandrolunatech/invoice-intake-api) | A TypeScript, Express 5 and Zod API: an LLM extracts invoice fields, and plain code verifies the IBAN and VAT checksums, the KvK number and the sums in integer cents before anything is paid |
+| [modern-java-design-patterns](https://github.com/alejandrolunatech/modern-java-design-patterns) | The classic GoF patterns rewritten with records, sealed types and pattern matching, and the same patterns used to keep an LLM in check |
 | [ai-engineering-labs](https://github.com/alejandrolunatech/ai-engineering-labs) | Production-minded AI engineering: a bounded PR-review agent with evals, a zero-trust MCP gateway with OPA policies, and ChangeBrief, an LLM service with cost, latency and abuse controls |
-
-Coming next, in public as each one is finished:
-
-- **modern-java-design-patterns**: the classic GoF patterns rewritten in modern Java, and the same patterns used to keep an LLM in check
-- **payment-disputes-spring-boot**: a Spring Boot service with a hexagonal core, where an LLM reads the customer's complaint and the rules decide
-- **invoice-intake-api**: a TypeScript and Express API where an LLM extracts invoice fields and plain code verifies the VAT maths, IBAN and KVK numbers
 
 ## Stack
 
